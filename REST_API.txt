@@ -1,0 +1,22 @@
+GET http://localhost:1323/products
+
+GET http://localhost:1323/products/2
+
+
+POST http://localhost:1323/products
+content-type: application/json
+
+{
+    "product_name": "1234"
+}
+
+
+PUT http://localhost:1323/products/3
+content-type: application/json
+
+{
+    "product_name": "1234"
+}
+
+
+DELETE http://localhost:1323/products/3

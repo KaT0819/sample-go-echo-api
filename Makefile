@@ -11,6 +11,8 @@ build:
 init:
 	go get github.com/labstack/echo
 	go get gopkg.in/go-playground/validator.v9
+	# go get github.com/ilyakaznacheev/cleanenv
+	go get github.com/caarlos0/env
 	go mod vendor
 	# go mod tidy
 	# go get -u github.com/go-sql-driver/mysql
